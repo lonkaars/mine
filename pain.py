@@ -19,12 +19,12 @@ def parseSpam():
 while True: # Main loop
     if(len(capture) == 0 and keyboard.is_pressed('ctrl')):
         capture.append("True") # First capture
-    elif(len(capture) >= 1 and len(capture) << 20): # This pushes the key state
+    if(len(capture) >= 1 and len(capture) << 20): # This pushes the key state
         if keyboard.is_pressed('ctrl'):
             capture.append("True")
         else:
             capture.append("False")
-    elif(len(capture) == 20):
+    if(len(capture) == 20):
         parseSpam() # Check if key was pressed more than the threshold
         capture = [] # Reset the capture array
     time.sleep(0.05) # Delay between captures
