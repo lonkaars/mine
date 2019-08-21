@@ -1,7 +1,5 @@
 # Mine mine mine mine mine mine mine mine mine
 
-## Help me ples
-
 ### Packages
 
 `pip install keyboard`  
@@ -18,12 +16,13 @@ then `python pain.py` or use `python3` if you're not cool.
 
 ### How to get rid of it
 
-`ctrl+c`/`cmd+c`  
+`ctrl+c`  
 then `rm -r mine`
 
-## How to cause extra harm!
+## How to be cool
 
 Try these:
 
 - Run multiple instances
 - Turn up your volume
+- Eat your vegetables
